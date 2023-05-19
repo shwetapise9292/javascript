@@ -40,3 +40,16 @@ console.log("Trimmed total spaces:",firstNameLength - lengthAfterTrim);
 var firstName = "Shweta";
 var nameLength = firstName.length;
 console.log("Total number of characters in given string is:", nameLength);
+
+var greet = "Good Morning";
+var includeResult = greet.includes("ing");
+console.log("Is ing string available inside : ", includeResult); 
+
+var searchResult = greet.search("Mor");
+console.log("Search result : ", searchResult); 
+
+var sliceResult = greet.slice(4, 6);
+console.log("Slice Result is: ", sliceResult); 
+
+var subStringResult = greet.substring(4, 6);
+console.log("Substring result is: ", subStringResult);
