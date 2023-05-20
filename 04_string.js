@@ -53,3 +53,4 @@ console.log("Slice Result is: ", sliceResult);
 
 var subStringResult = greet.substring(4, 6);
 console.log("Substring result is: ", subStringResult);
+
