@@ -26,16 +26,20 @@ function swapValuesDude(value1, value2){
     value1 = value2;
     value2 = temp;
     console.log("After swap:", value1, value2);
-    console.log(" ");
+    
 }
 swapValuesDude("Virat", "Anushka");
+console.log(" ");
 swapValuesDude(1000, 2000);
 console.log("---------------------------------------------------------------------");
 
-function addThreeValues(num1, num2, num3){
-    console.log("Given Numbers:", num1, ",", num2, ",", num3);
-    console.log("Addition of given numbers:", num1 + num2 + num3);
-    console.log(" ");
+function addThreeValues(num1, num2, num3) {
+    var result  = num1 + num2 + num3;
+    return result;
 }
-addThreeValues(10.23, 600, 40);
-addThreeValues("Hello", "Good", "Morning");
+var returnValue = addThreeValues(10.23, 600, 40);
+console.log("Addition of given numbers: ", returnValue);
+console.log(" ");
+
+var returnResult = addThreeValues("Hello", "Good", "Morning");
+console.log("Addition of given string is: ", returnResult);
