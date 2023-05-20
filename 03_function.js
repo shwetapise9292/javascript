@@ -34,14 +34,6 @@ swapVariables(fruitApple, fruitMango);
 console.log("------------------------")
 
 function addition(num1, num2) {
-
-    var result  = num1 + num2;// result = 300
-
-    return result;
-
-}
-
-function addition(num1, num2) {
     var result  = num1 + num2;// result = 300
     return result;
 }
