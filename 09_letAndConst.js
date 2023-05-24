@@ -6,7 +6,9 @@ var myName = "Shweta";   // variable declaration and initialization
 
 var myName = "Shweta Pise";   // Re-declaration allowed
 
-console.log(`${myName}`);
+var myName = "Shweta A. Pise";   // Update
+
+console.log(`${myName}`);   
 
 let collegeName = "DACOE";
 
@@ -19,7 +21,7 @@ console.log(`${PI}`);
 //Scope accessibility
 let age = 25;
 if(age == 25){
-    var city = "Pune";
+    let city = "Pune";
     console.log(`City ${city}`);
 }
 console.log(`City ${city}`);
@@ -28,8 +30,8 @@ function show(){
     var country = "India";
     let age = 25;
     if(age == 25){
-        var city = "Pune";
-        var PIN = 431267;
+        let city = "Pune";
+        const PIN = 431267;
         var village = "Mulsi";
     }
         //console.log(`City ${city}`);
@@ -37,3 +39,5 @@ function show(){
         console.log(`Village ${village}`);
 }
 show();
+console.log(`Country ${country}`);
+
