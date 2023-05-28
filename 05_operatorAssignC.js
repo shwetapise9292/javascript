@@ -15,18 +15,3 @@ console.log(" ");
 isEligible(70, 65, 55, "Dhanashri");
 console.log(" ");
 isEligible(60, 79, 88, "Snehal");
-
-
-
-
-
-// function swapVariables(valueOne, valueTwo) { //Arguments
-//     console.log("Before swap:", valueOne, valueTwo);
-//     var temp = valueOne;
-//     valueOne = valueTwo;
-//     valueTwo = temp;
-//     console.log("After swap:", valueOne, valueTwo)
-// }
-// swapVariables(numOne, numTwo); //100 200
-// swapVariables(name1, name2);
-// swapVariables(fruitApple, fruitMango)
